@@ -1,27 +1,4 @@
-# Astro Starter Kit: Docs Site
-
-```bash
-npm create astro@latest -- --template docs
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/docs)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/docs)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/docs/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![docs](https://user-images.githubusercontent.com/4677417/186189283-0831b9ab-d6b9-485d-8955-3057e532ab31.png)
-
-## Features
-
-- ✅ **Full Markdown support**
-- ✅ **Responsive mobile-friendly design**
-- ✅ **Sidebar navigation**
-- ✅ **Search (powered by Algolia)**
-- ✅ **Multi-language i18n**
-- ✅ **Automatic table of contents**
-- ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
+# Zephyr Heights MC
 
 ## 🧞 Commands
 
@@ -38,15 +15,9 @@ All commands are run from the root of the project, from a terminal:
 
 To deploy your site to production, check out our [Deploy an Astro Website](https://docs.astro.build/guides/deploy) guide.
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Customize This Theme
-
 ### Site metadata
 
-`src/consts.ts` contains several data objects that describe metadata about your site like title, description, default language, and Open Graph details. You can customize these to match your project.
+`src/consts.ts` contains several data objects that describe metadata about the site like title, description, default language, and Open Graph details.
 
 ### CSS styling
 
@@ -82,7 +53,7 @@ For more SEO related properties, look at `src/components/HeadSEO.astro`
 
 ### Sidebar navigation
 
-The sidebar navigation is controlled by the `SIDEBAR` variable in your `src/consts.ts` file. You can customize the sidebar by modifying this object. A default, starter navigation has already been created for you.
+The sidebar navigation is controlled by the `SIDEBAR` variable in your `src/consts.ts` file. You can customize the sidebar by modifying this object. A default, starter navigation has already been created.
 
 ```ts
 export const SIDEBAR = {
